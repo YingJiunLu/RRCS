@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RRCS</string>
+    <string name="pet_name">寵物名稱 :</string>
+    <string name="switch_auto_onoff">自動開/關設備 :</string>
+    <string name="switch_auto_onoff1">"自動開/關設備 :    "</string>
+    <string name="insert_pet_name">寵物名稱 :</string>
+    <string name="editText_insert_pet_name" />
+    <string name="insert_pet_kind">寵物種類 :</string>
+    <string name="temp_range">理想溫度範圍 :</string>
+    <string name="range1">到</string>
+    <string name="hum_range">"理想濕度範圍 : "</string>
+    <string name="range2">到</string>
+    <string name="temp">目前溫度 :</string>
+    <string name="textView_temp" />
+    <string name="textView_hum">目前濕度 :</string>
+    <string name="hum">目前濕度 :</string>
+    <string name="textView_hum1" />
+    <string name="BT_setting">藍芽設定 :</string>
+
+    <string name="btn">產生訊息</string>
+    <string name="tickerText">今天天氣不錯唷!!</string>
+    <string name="contentTitle">氣象報告說:天氣晴朗,萬里無雲</string>
+    <string name="contentText">別忘了擦防曬!</string>
+</resources>

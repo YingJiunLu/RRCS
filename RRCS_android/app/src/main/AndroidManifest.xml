@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lu.rrcs">
+
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="遠端爬蟲照護系統"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Function" />
+        <activity android:name=".Insert" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Function" />
+        </activity>
+        <activity android:name=".Information" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Function" />
+        </activity>
+
+        <activity android:name=".Video">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Function" />
+        </activity>
+    </application>
+
+</manifest>
